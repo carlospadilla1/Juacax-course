@@ -42,19 +42,39 @@
       <br />
 
       <!--Nombre-->
-      <input type="text" name="nombre" placeholder="Ingresá tu nombre" />
+      <input
+        type="text"
+        name="nombre"
+        placeholder="Ingresá tu nombre"
+        required
+      />
       <br />
 
       <!--Apellido-->
-      <input type="text" name="apellido" placeholder="Ingresá tu apellido" />
+      <input
+        type="text"
+        name="apellido"
+        placeholder="Ingresá tu apellido"
+        required
+      />
       <br />
 
       <!--Usuario-->
-      <input type="text" name="usuario" placeholder="Ingresá un usuario" />
+      <input
+        type="text"
+        name="usuario"
+        placeholder="Ingresá un usuario"
+        required
+      />
       <br />
 
       <!--Contraseña-->
-      <input type="password" name="clave" placeholder="Ingresá tu contraseña" />
+      <input
+        type="password"
+        name="clave"
+        placeholder="Ingresá tu contraseña"
+        required
+      />
       <br />
 
       <!--Validación de contraseña-->
@@ -62,11 +82,17 @@
         type="password"
         name="clave-validacion"
         placeholder="Repite la contraseña"
+        required
       />
       <br />
 
       <!--Teléfono-->
-      <input type="tel" name="teléfono" placeholder="Ingresá tu teléfono" />
+      <input
+        type="tel"
+        name="teléfono"
+        placeholder="Ingresá tu teléfono"
+        required
+      />
       <br />
 
       <!--Correo-->
@@ -74,12 +100,20 @@
         type="email"
         name="correo-electrónicos"
         placeholder="Ingresá tu correo electrónico"
+        required
       />
+
+      <!--Registro, reset y términos.-->
 
       <br />
       <br />
       <input type="submit" value="Registrar" />
-
+      <input type="reset" value="Reset" />
+      <br />
+      <br />
+      <input type="checkbox" name="terminos" /> Aceptar términos y condiciones
+      <br />
+      <br />
       <!--Formulario de selcción-->
 
       <select>
@@ -91,11 +125,20 @@
         <option value="5">Brasil</option>
       </select>
       <br />
+      <hr />
 
-      <label>Sexo:</label><br />
-      <hr>
-      <input type="radio" id="femenino" id="sexo" value="1"/>
-      <labe>Femenino:</label>
+      <label>Sexo</label>
+      <br />
+      <br />
+
+      <input type="radio" id="femenino" name="sexo" value="1" />
+      <label for="femenino">Femenino</label>
+
+      <input type="radio" id="masculino" name="sexo" value="2" />
+      <label for="masculino">Masculino</label>
+
+      <input type="radio" id="otros" name="sexo" value="3" />
+      <label for="otros">Otros</label>
     </form>
   </body>
 </html>
