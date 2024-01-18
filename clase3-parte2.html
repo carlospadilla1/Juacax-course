@@ -35,6 +35,12 @@
     <hr />
     <h4>Segundo formulario</h4>
     <form>
+      <!--Nacimiento-->
+      <label for="label-nacimiento">Fecha de nacimiento</label>
+      <br />
+      <input type="date" name="nacimiento" id="label-nacimiento" />
+      <br />
+
       <!--Nombre-->
       <input type="text" name="nombre" placeholder="Ingresá tu nombre" />
       <br />
@@ -48,23 +54,48 @@
       <br />
 
       <!--Contraseña-->
-      <input type="password" name="clave" placeholder="Ingresá tu contraseña"/>
+      <input type="password" name="clave" placeholder="Ingresá tu contraseña" />
       <br />
 
       <!--Validación de contraseña-->
-      <input type="password" name="clave-validacion" placeholder="Repite la contraseña" />
+      <input
+        type="password"
+        name="clave-validacion"
+        placeholder="Repite la contraseña"
+      />
       <br />
 
       <!--Teléfono-->
-      <input type="tel" name="teléfono" placeholder="Ingresá tu teléfono"/>
+      <input type="tel" name="teléfono" placeholder="Ingresá tu teléfono" />
       <br />
 
       <!--Correo-->
-      <input type="email" name="correo-electrónicos" placeholder="Ingresá tu correo electrónico"/>
+      <input
+        type="email"
+        name="correo-electrónicos"
+        placeholder="Ingresá tu correo electrónico"
+      />
 
       <br />
       <br />
       <input type="submit" value="Registrar" />
+
+      <!--Formulario de selcción-->
+
+      <select>
+        <option selected disabled hidden>País de Origen</option>
+        <option value="1">Venezuela</option>
+        <option value="2">Argentina</option>
+        <option value="3">Colombia</option>
+        <option value="4">Chile</option>
+        <option value="5">Brasil</option>
+      </select>
+      <br />
+
+      <label>Sexo:</label><br />
+      <hr>
+      <input type="radio" id="femenino" id="sexo" value="1"/>
+      <labe>Femenino:</label>
     </form>
   </body>
 </html>
