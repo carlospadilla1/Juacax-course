@@ -1,6 +1,13 @@
-h1{
+h1 {
     background-color: blue !important;
     color: white;
     font-size: 2em;
 }
 
+#h1Clase4 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.h1Otro {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
