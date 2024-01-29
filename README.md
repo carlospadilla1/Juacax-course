@@ -40,7 +40,7 @@ Inline !important
 
 Los important no se deben usar sin razón, solo ocacionalmente.
 
-## ID y Clases
+## 4. ID y Clases
 
 External class
 Internal class
