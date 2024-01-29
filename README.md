@@ -22,3 +22,19 @@ Vimos que son las listas, sus tipos y formato para párrafos.
     <ins> - Inserted text
     <sub> - Subscript text
     <sup> - Superscript text
+
+## Estilos y prioridades
+ 
+Los estilos inline o en líena poseen prioridades más altas que los generales, es decir si especifícas un estilo ese mismo tendrá preferencia por encima del general.
+
+De menor a mayor sería:
+
+External
+Internal
+Inline
+
+External !important
+Internal !important
+Inline !important
+
+Los important no se deben usar sin razón, solo ocacionalmente.

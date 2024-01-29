@@ -1,5 +1,5 @@
 h1{
-    background-color: blue;
+    background-color: blue !important;
     color: white;
     font-size: 2em;
 }
