@@ -4,10 +4,20 @@ h1 {
     font-size: 2em;
 }
 
+div h1{
+    font-size: 1em;
+}
+
 h2 {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
+/*Sólo las etiquetas h2 que estén dentro de un div tendrán esta regla*/
+div h2{
+    background-color: crimson;
+}
+
+/*Sólo las etiquetas p con la clase "fondo-p" tendrán esta regla*/
 p.fondo-p {
     background-color: black;
     color: white;
