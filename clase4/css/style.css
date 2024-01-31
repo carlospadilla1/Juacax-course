@@ -4,7 +4,7 @@ h1 {
     font-size: 2em;
 }
 
-div h1{
+div h1 {
     font-size: 1em;
 }
 
@@ -13,7 +13,7 @@ h2 {
 }
 
 /*Sólo las etiquetas h2 que estén dentro de un div tendrán esta regla*/
-div h2{
+div h2 {
     background-color: crimson;
 }
 
@@ -32,4 +32,19 @@ p.fondo-p {
 .h1Otro {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 2em;
+}
+
+/*Color hexadecimal*/
+div h2 {
+    background-color: #ff0000ff;
+}
+
+/*Color RGBA*/
+h2.segundoh2 {
+    background-color: rgba(0, 255, 0, 0.5);
+}
+
+/*Color hsl (No se usa casi nunca)*/
+h2.segundoh2 {
+    background-color: hsla(240, 100%, 50%, 1);
 }
