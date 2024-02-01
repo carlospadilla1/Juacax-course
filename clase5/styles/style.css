@@ -1,3 +1,47 @@
 body {
     background-image: url(../img/paper.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/*Borders*/
+
+p {
+    padding: 5px;
+}
+
+p.punteado {
+    border-style: dotted;
+}
+
+p.discontinuo {
+    border-style: dashed;
+}
+
+p.solido {
+    border-style: solid;
+}
+
+p.doble {
+    border-style: double;
+}
+
+/*Groove = Ranura, etc.*/
+p.groove {
+    border-style: groove;
+}
+
+/*Ridge = Cresta, lo opuesto a groove*/
+
+p.ridge {
+    border-style: ridge;
+}
+
+p.inset {
+    border-style: inset;
+}
+
+p.outset {
+    border-style: outset;
 }
