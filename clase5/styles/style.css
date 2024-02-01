@@ -45,3 +45,7 @@ p.inset {
 p.outset {
     border-style: outset;
 }
+
+p.mixed {
+    border-style: dotted solid double inset;
+}
