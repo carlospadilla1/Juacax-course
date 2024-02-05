@@ -20,4 +20,19 @@
     border-style: solid;
     border-color: red;
     padding: 5px;
+    margin-bottom: 30px;
+}
+
+.span1 {
+    border-style: solid;
+    border-color: blue;
+    padding: 15px;
+    border-radius: 20px ;
+}
+
+.span2 {
+    border-style: solid;
+    border-color: blue;
+    padding: 15px;
+    border-radius: 20px;
 }
