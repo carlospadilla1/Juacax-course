@@ -2,3 +2,32 @@
     border: red solid 2px;
     margin: 40px;
 }
+
+.padding {
+    border: red solid 2px;
+    padding: 40px;
+}
+
+/*Text and fonts*/
+
+.text {
+    padding: 5px;
+    border: solid black 2px;
+}
+
+.center {
+    text-align: center;
+}
+
+.right {
+    background-color: blueviolet;
+    text-align: right;
+}
+
+.left {
+    text-align: left;
+}
+
+.justify {
+    text-align: justify;
+}
