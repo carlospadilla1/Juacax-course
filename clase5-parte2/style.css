@@ -1,0 +1,23 @@
+.normal {
+    border-style: solid;
+    border-color: red;
+    padding: 5px;
+}
+
+.round {
+    border-style: solid;
+    border-color: red;
+    padding: 5px;
+}
+
+.rounder {
+    border-style: solid;
+    border-color: red;
+    padding: 5px;
+}
+
+.roundest {
+    border-style: solid;
+    border-color: red;
+    padding: 5px;
+}
