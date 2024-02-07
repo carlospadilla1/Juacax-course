@@ -31,3 +31,25 @@
 .justify {
     text-align: justify;
 }
+
+/*Text align last realiza lo mismo que el text align normal, la diferencia es que solo aplica para el final
+allí decides el como quieres que termine.*/
+
+.text-align-last-right {
+    text-align-last: right;
+}
+
+.text-align-last-left {
+    text-align-last: left;
+}
+
+.text-align-last-justify {
+    text-align-last: justify;
+}
+
+/*Orientación de texto*/
+
+.orientation-text {
+    direction: rtl;
+    unicode-bidi: bidi-override;
+}
