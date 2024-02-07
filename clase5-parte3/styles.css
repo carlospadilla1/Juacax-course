@@ -53,3 +53,25 @@ allí decides el como quieres que termine.*/
     direction: rtl;
     unicode-bidi: bidi-override;
 }
+
+/*Vertical Align (imágenes)*/
+
+img.baceline {
+    vertical-align: baseline;
+}
+
+img.top {
+    vertical-align: text-top;
+}
+
+img.bottom {
+    vertical-align: text-bottom;
+}
+
+img.sub {
+    vertical-align: sub;
+}
+
+img.sup {
+    vertical-align: super;
+}
