@@ -1,77 +1,94 @@
 .margin {
-    border: red solid 2px;
-    margin: 40px;
+  border: red solid 2px;
+  margin: 40px;
 }
 
 .padding {
-    border: red solid 2px;
-    padding: 40px;
+  border: red solid 2px;
+  padding: 40px;
 }
 
 /*Text and fonts*/
 
 .text {
-    padding: 5px;
-    border: solid black 2px;
+  padding: 5px;
+  border: solid black 2px;
 }
 
 .center {
-    text-align: center;
+  text-align: center;
 }
 
 .right {
-    background-color: blueviolet;
-    text-align: right;
+  background-color: blueviolet;
+  text-align: right;
 }
 
 .left {
-    text-align: left;
+  text-align: left;
 }
 
 .justify {
-    text-align: justify;
+  text-align: justify;
 }
 
 /*Text align last realiza lo mismo que el text align normal, la diferencia es que solo aplica para el final
 allí decides el como quieres que termine.*/
 
 .text-align-last-right {
-    text-align-last: right;
+  text-align-last: right;
 }
 
 .text-align-last-left {
-    text-align-last: left;
+  text-align-last: left;
 }
 
 .text-align-last-justify {
-    text-align-last: justify;
+  text-align-last: justify;
 }
 
 /*Orientación de texto*/
 
 .orientation-text {
-    direction: rtl;
-    unicode-bidi: bidi-override;
+  direction: rtl;
+  unicode-bidi: bidi-override;
 }
 
 /*Vertical Align (imágenes)*/
 
 img.baceline {
-    vertical-align: baseline;
+  vertical-align: baseline;
 }
 
 img.top {
-    vertical-align: text-top;
+  vertical-align: text-top;
 }
 
 img.bottom {
-    vertical-align: text-bottom;
+  vertical-align: text-bottom;
 }
 
 img.sub {
-    vertical-align: sub;
+  vertical-align: sub;
 }
 
 img.sup {
-    vertical-align: super;
+  vertical-align: super;
+}
+
+/*Text Decorations*/
+
+.overline {
+    text-decoration: overline;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.throug {
+    text-decoration: line-through;
+}
+.underline-and-overline {
+    text-decoration: underline overline;
 }
