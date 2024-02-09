@@ -127,3 +127,11 @@ img.sup {
 .letter-spacing {
   letter-spacing: 10px;
 }
+
+.letter-spacing-negative {
+  letter-spacing: -2px;
+}
+
+.line-height{
+  line-height: 2;
+}
