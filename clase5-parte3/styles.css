@@ -135,3 +135,15 @@ img.sup {
 .line-height{
   line-height: 2;
 }
+
+.word-spacing {
+  word-spacing: 50px;
+}
+
+.word-spacing-negative {
+  word-spacing: -25px;
+}
+
+.white-space {
+  white-space: nowrap;
+}
