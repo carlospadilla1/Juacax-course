@@ -94,7 +94,6 @@ img.sup {
 }
 
 /*Text style*/
-
 .overline {
   text-decoration-color: brown;
   text-decoration-style: double;
@@ -105,7 +104,6 @@ img.sup {
 }
 
 /*Text-transform*/
-
 .uppercase {
   text-transform: uppercase;
 }
@@ -132,10 +130,12 @@ img.sup {
   letter-spacing: -2px;
 }
 
-.line-height{
+/*Line heiht*/
+.line-height {
   line-height: 2;
 }
 
+/*Word spacing*/
 .word-spacing {
   word-spacing: 50px;
 }
@@ -144,6 +144,7 @@ img.sup {
   word-spacing: -25px;
 }
 
+/*White space*/
 .white-space {
   white-space: nowrap;
 }
