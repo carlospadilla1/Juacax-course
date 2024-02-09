@@ -29,3 +29,10 @@
   border: solid black 1px;
   text-align: center;
 }
+
+/*Font family google*/
+
+.change-font {
+  font-family: "Fira Sans", sans-serif;
+  font-style: italic;
+}
