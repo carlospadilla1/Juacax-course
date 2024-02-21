@@ -23,20 +23,44 @@
       <p>Container fluid, ocupa el 100% de la pantalla del dispositivo.</p>
     </div>
 
-    <div class="container bg-danger text-white">
+    <!--Uso de columnas con Bootstrap: La pantalla se divide en 12 columnas, por ende hay que indicarle cuantas columnas ocupará cada elemento..-->
+    <div class="container-fluid text-white">
       <div class="row">
-        <div class="col-1">1</div>
-        <div class="col-1">1</div>
-        <div class="col-1">1</div>
-        <div class="col-1">1</div>
-        <div class="col-1">1</div>
-        <div class="col-1">1</div>
-        <div class="col-1">1</div>
-        <div class="col-1">1</div>
-        <div class="col-1">1</div>
-        <div class="col-1">1</div>
-        <div class="col-1">1</div>
-        <div class="col-1">1</div>
+        <!--md=768px  sm=576px lg=992px xl=1200px xxl=1400-->
+        <div class="col-md-1 bg-primary">1</div>
+        <div class="col-md-1 bg-secondary">2</div>
+        <div class="col-md-1 bg-info">3</div>
+        <div class="col-md-1 bg-success">4</div>
+        <div class="col-md-1 bg-warning">5</div>
+        <div class="col-md-1 bg-dark">6</div>
+        <div class="col-md-1 bg-primary-subtle text-black">7</div>
+        <div class="col-md-1 bg-success-subtle text-black">8</div>
+        <div class="col-md-1 bg-warning-subtle text-black">9</div>
+        <div class="col-md-1 bg-info-subtle text-black">10</div>
+        <div class="col-md-1 bg-secondary-subtle text-black">11</div>
+        <div class="col-md-1 bg-dark-subtle text-black">12</div>
+      </div>
+    </div>
+
+    <br />
+    <hr />
+    <br />
+
+    <!--Si es mayor o igual a 576 se cumple sm, si es menor se cumple md.-->
+    <div class="container-fluid">
+      <div class="row bg-black text-white">
+        <div class="col-md-1 col-sm-2">1</div>
+        <div class="col-md-1 col-sm-2">2</div>
+        <div class="col-md-1 col-sm-2">3</div>
+        <div class="col-md-1 col-sm-2">4</div>
+        <div class="col-md-1 col-sm-2">5</div>
+        <div class="col-md-1 col-sm-2">6</div>
+        <div class="col-md-1 col-sm-2">7</div>
+        <div class="col-md-1 col-sm-2">8</div>
+        <div class="col-md-1 col-sm-2">9</div>
+        <div class="col-md-1 col-sm-2">10</div>
+        <div class="col-md-1 col-sm-2">11</div>
+        <div class="col-md-1 col-sm-2">12</div>
       </div>
     </div>
 
